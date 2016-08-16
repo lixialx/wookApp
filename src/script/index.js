@@ -10,5 +10,5 @@ require("./lib/swiper-3.3.1.min.js");
 //配置spa的默认视图
 SPA.config({
 	//默认视图
-	indexView:"index"
+	indexView:"guide"
 })
