@@ -1,0 +1,47 @@
+      <header class="header">
+          <div class="icon yo-ico">&#xe745;</div>
+          <ul>
+            <li class="on" action-type="slide.swiper">热点</li>
+            <li action-type="slide.swiper">关注</li>
+          </ul>
+          <div class="icon yo-ico">&#xe684;</div>
+      </header>
+         <div class="swiper-container" id="slide">
+              <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                  <div class="main">
+                  <nav class="nav">
+                    <ul>
+                      <li class="active" action-type="switch.slide">足球现场</li>
+                      <li action-type="switch.slide">足球生活</li>
+                      <li action-type="switch.slide">足球美女</li>
+                    </ul>
+                  </nav>
+
+                  <div class="m-main">
+                     <div class="swiper-container" id="ser">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                 <ul ms-repeat-obj="livelist">
+                                     <li>
+                                       <i><img ms-src="obj[0].img"></i>
+                                       <b ms-text="obj[0].title"></b>
+                                     </li>
+                                     <li></li>
+                                     <li ms-class-hide="!obj[1]">
+                                        <i><img ms-src="obj[1].img"></i>
+                                        <b ms-text="obj[1].title"></b>
+                                     </li>
+                                 </ul>  </div>
+                            <div class="swiper-slide">Slide 3</div>
+                            <div class="swiper-slide">Slide 4</div>
+                          </div>  
+                          </div> 
+                    </div>                      
+        
+                  </div> 
+               </div>            
+               
+               <div class="swiper-slide">关点。。。。</div>
+              <div>
+            </div>   

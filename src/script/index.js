@@ -1,0 +1,14 @@
+require("./lib/spa.min.js");
+require("./lib/iscroll-probe.js");
+require("./lib/swiper-3.3.1.min.js");
+require('./common/js.js');
+require("./common/my.js");
+require("./common/search.js");
+require("./common/home.js");
+require("./common/guide.js");
+require("./lib/swiper-3.3.1.min.js");
+//配置spa的默认视图
+SPA.config({
+	//默认视图
+	indexView:"index"
+})

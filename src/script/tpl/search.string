@@ -1,0 +1,7 @@
+<div class="my-search" spa-widget="scroll" data-scroll-id="navscroll">
+  <div>
+    <div class="my-header"></div>
+    <div class="my-section"></div>
+    <div class="my-footer"></div>
+  </div>
+</div>

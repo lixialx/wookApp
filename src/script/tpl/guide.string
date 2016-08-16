@@ -1,0 +1,10 @@
+<div class="swiper-container" id="guide-swiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="/app1/images/slide1.png" /></div>
+        <div class="swiper-slide"><img src="/app1/images/slide2.png" /></div>
+        <div class="swiper-slide"><img src="/app1/images/slide3.png" /></div>
+        <div class="swiper-slide"><img src="/app1/images/slide4.png" />
+        <p action-type="switch.index" data-tag="index"></p>
+        </div>
+    </div>
+</div>
